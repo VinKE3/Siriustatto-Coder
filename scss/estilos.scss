@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@400;700&display=swap");
+
+@import "footer";
+
+@import "servicios";
+
+@import "proyectos";
+
+@import "team";
+
+@import "hero";
+
+:root {
+  --primary: #e56399ff;
+  --secondary: #30343fff;
+  --dark: #21252f;
+  --body: #888;
+  --white: #ffffff;
+  --box-shadow: 0 8px 22px rgba(0, 0, 0, 0.1);
+}
+
+//GlOBALES//
+body {
+  font-family: "Sora", sans-serif;
+  line-height: 1.7;
+  color: var(--body);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.display-4 {
+  color: var(--dark);
+  font-weight: 700;
+}
+a {
+  color: var(--dark);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--primary) !important;
+}
+img {
+  width: 100%;
+}
+span {
+  color: var(--primary);
+}
+
+section {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.pad {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+//NAVBAR//
+
+.navbar {
+  box-shadow: var(--box-shadow);
+}
+
+.navbar .nav-link {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+//HERO//
+
+//HERRAMIENTAS//
+
+.text-primary {
+  color: var(--primary) !important;
+}
+.card-effect {
+  box-shadow: var(--box-shadow);
+  background-color: var(--white);
+  padding: 25px;
+  transition: all 0.35s ease;
+}
+
+.card-effect:hover {
+  box-shadow: none;
+  transform: translateY(5px);
+}
+
+.iconbox {
+  width: 54px;
+  height: 54px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary);
+  color: var(--white);
+  font-size: 32px;
+  border-radius: 100px;
+  flex: none;
+}
+
+//NOSOTROS//
+
+.col-img {
+  background-image: url(../TATUAJES/Lumi-tatuando/LUMI.jpg);
+  background-position: center;
+  background-size: cover;
+  min-height: 500px;
+}
+
+.row {
+  margin-left: 0;
+}
+
+//PRICING//
+
+.pricing {
+  font-size: 20px;
+  color: var(--primary);
+  margin-top: 8px;
+}
+
+//BLOG//
+
+.contenido-blog {
+  padding: 1rem;
+}
+
+@media (min-width: 768px) {
+  .entrada-meta {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.entrada-meta p {
+  font-weight: 700;
+}
+.entrada-meta span {
+  color: var(--primary);
+  font-weight: 900;
+}
+
+
+//FORM//
+form input.form-control {
+  height: 56px;
+}
+
+form .form-control {
+  border: transparent;
+  border-radius: 0;
+  background-color: rgba(0, 0, 0, 0.02);
+}
+
+//BOTON-MIXING//
+@mixin boton {
+  padding: 14px 18px;
+  border-width: 2px;
+  border-radius: 0;
+  margin: 1rem;
+  background-color: var(--primary);
+  border-color: var(--secondary);
+  border-radius: 2rem;
+}
+
+.btn {
+  @include boton();
+}
+
+.btn:hover {
+  background-color: var(--dark);
+  color: white !important;
+  border-color: var(--secondary);
+}
+
+@media (min-width: 768px) {
+  .container-btn {
+    width: 300px;
+  }
+}
