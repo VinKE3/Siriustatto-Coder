@@ -10,6 +10,12 @@
 
 @import "hero";
 
+@import "blog";
+
+@import "navbar";
+
+@import "efectos";
+
 :root {
   --primary: #e56399ff;
   --secondary: #30343fff;
@@ -60,50 +66,9 @@ section {
   padding-bottom: 2rem;
 }
 
-//NAVBAR//
-
-.navbar {
-  box-shadow: var(--box-shadow);
-}
-
-.navbar .nav-link {
-  font-size: 14px;
-  font-weight: 700;
-}
-
-//HERO//
-
-//HERRAMIENTAS//
-
 .text-primary {
   color: var(--primary) !important;
 }
-.card-effect {
-  box-shadow: var(--box-shadow);
-  background-color: var(--white);
-  padding: 25px;
-  transition: all 0.35s ease;
-}
-
-.card-effect:hover {
-  box-shadow: none;
-  transform: translateY(5px);
-}
-
-.iconbox {
-  width: 54px;
-  height: 54px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: var(--primary);
-  color: var(--white);
-  font-size: 32px;
-  border-radius: 100px;
-  flex: none;
-}
-
-//NOSOTROS//
 
 .col-img {
   background-image: url(../TATUAJES/Lumi-tatuando/LUMI.jpg);
@@ -116,34 +81,11 @@ section {
   margin-left: 0;
 }
 
-//PRICING//
-
 .pricing {
   font-size: 20px;
   color: var(--primary);
   margin-top: 8px;
 }
-
-//BLOG//
-
-.contenido-blog {
-  padding: 1rem;
-}
-
-@media (min-width: 768px) {
-  .entrada-meta {
-    display: flex;
-    justify-content: space-between;
-  }
-}
-.entrada-meta p {
-  font-weight: 700;
-}
-.entrada-meta span {
-  color: var(--primary);
-  font-weight: 900;
-}
-
 
 //FORM//
 form input.form-control {
@@ -157,28 +99,5 @@ form .form-control {
 }
 
 //BOTON-MIXING//
-@mixin boton {
-  padding: 14px 18px;
-  border-width: 2px;
-  border-radius: 0;
-  margin: 1rem;
-  background-color: var(--primary);
-  border-color: var(--secondary);
-  border-radius: 2rem;
-}
 
-.btn {
-  @include boton();
-}
 
-.btn:hover {
-  background-color: var(--dark);
-  color: white !important;
-  border-color: var(--secondary);
-}
-
-@media (min-width: 768px) {
-  .container-btn {
-    width: 300px;
-  }
-}

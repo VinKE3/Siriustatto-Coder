@@ -1,0 +1,10 @@
+.navbar {
+  -webkit-box-shadow: var(--box-shadow);
+          box-shadow: var(--box-shadow);
+}
+
+.navbar .nav-link {
+  font-size: 14px;
+  font-weight: 700;
+}
+/*# sourceMappingURL=navbar.css.map */

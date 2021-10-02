@@ -1,0 +1,19 @@
+//BLOG//
+
+.contenido-blog {
+  padding: 1rem;
+}
+
+@media (min-width: 768px) {
+  .entrada-meta {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.entrada-meta p {
+  font-weight: 700;
+}
+.entrada-meta span {
+  color: var(--primary);
+  font-weight: 900;
+}
