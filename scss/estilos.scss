@@ -16,20 +16,18 @@
 
 @import "efectos";
 
-:root {
-  --primary: #e56399ff;
-  --secondary: #30343fff;
-  --dark: #21252f;
-  --body: #888;
-  --white: #ffffff;
-  --box-shadow: 0 8px 22px rgba(0, 0, 0, 0.1);
-}
+$primary: #e56399ff;
+$secondary: #30343fff;
+$dark: #21252f;
+$body: #888;
+$white: #ffffff;
+$box-shadow: 0 8px 22px rgba(0, 0, 0, 0.1);
 
 //GlOBALES//
 body {
   font-family: "Sora", sans-serif;
   line-height: 1.7;
-  color: var(--body);
+  color: $body;
 }
 
 h1,
@@ -39,21 +37,21 @@ h4,
 h5,
 h6,
 .display-4 {
-  color: var(--dark);
+  color: $dark;
   font-weight: 700;
 }
 a {
-  color: var(--dark);
+  color: $dark;
   text-decoration: none;
 }
 a:hover {
-  color: var(--primary) !important;
+  color: $primary !important;
 }
 img {
   width: 100%;
 }
 span {
-  color: var(--primary);
+  color: $primary;
 }
 
 section {
@@ -67,7 +65,7 @@ section {
 }
 
 .text-primary {
-  color: var(--primary) !important;
+  color: $primary !important;
 }
 
 //NOSOTROS//
@@ -87,7 +85,7 @@ section {
 
 .pricing {
   font-size: 20px;
-  color: var(--primary);
+  color: $primary;
   margin-top: 8px;
 }
 
@@ -108,8 +106,8 @@ form .form-control {
   border-width: 2px;
   border-radius: 0;
   margin: 1rem;
-  background-color: var(--primary);
-  border-color: var(--secondary);
+  background-color: $primary;
+  border-color: $secondary;
   border-radius: 2rem;
 }
 
@@ -118,9 +116,9 @@ form .form-control {
 }
 
 .btn:hover {
-  background-color: var(--dark);
+  background-color: $dark;
   color: white !important;
-  border-color: var(--secondary);
+  border-color: $secondary;
 }
 
 @media (min-width: 768px) {

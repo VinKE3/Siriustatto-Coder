@@ -1,5 +1,12 @@
 //BLOG//
 
+$primary: #e56399ff;
+$secondary: #30343fff;
+$dark: #21252f;
+$body: #888;
+$white: #ffffff;
+$box-shadow: 0 8px 22px rgba(0, 0, 0, 0.1);
+
 .contenido-blog {
   padding: 1rem;
 }
@@ -14,6 +21,6 @@
   font-weight: 700;
 }
 .entrada-meta span {
-  color: var(--primary);
+  color: $primary;
   font-weight: 900;
 }

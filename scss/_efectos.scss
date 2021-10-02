@@ -1,6 +1,15 @@
+//EFECTOS//
+
+$primary: #e56399ff;
+$secondary: #30343fff;
+$dark: #21252f;
+$body: #888;
+$white: #ffffff;
+$box-shadow: 0 8px 22px rgba(0, 0, 0, 0.1);
+
 .card-effect {
-  box-shadow: var(--box-shadow);
-  background-color: var(--white);
+  box-shadow: $box-shadow;
+  background-color: $white;
   padding: 25px;
   transition: all 0.35s ease;
 }
@@ -16,8 +25,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--primary);
-  color: var(--white);
+  background-color: $primary;
+  color: $white;
   font-size: 32px;
   border-radius: 100px;
   flex: none;

@@ -1,5 +1,12 @@
 //TEAM SIRIUS//
 
+$primary: #e56399ff;
+$secondary: #30343fff;
+$dark: #21252f;
+$body: #888;
+$white: #ffffff;
+$box-shadow: 0 8px 22px rgba(0, 0, 0, 0.1);
+
 .team-member img {
   width: 125px;
   height: 125px;
@@ -12,20 +19,20 @@
   a {
     width: 34px;
     height: 34px;
-    background-color: var(--primary);
-    border-radius: 2px solid var(--primary);
-    color: var(--white);
+    background-color: $primary;
+    border-radius: 2px solid $primary;
+    color: $white;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 100px;
     margin-left: 5px;
     transition: all 0.4s ease;
-    border: 2px solid var(--primary);
+    border: 2px solid $primary;
   }
 }
 .social-icons a:hover {
-  color: var(--primary);
+  color: $primary;
   background-color: transparent;
-  border-color: var(--primary);
+  border-color: $primary;
 }

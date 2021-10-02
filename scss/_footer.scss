@@ -1,0 +1,26 @@
+//FOOTER//
+
+$primary: #e56399ff;
+$secondary: #30343fff;
+$dark: #21252f;
+$body: #888;
+$white: #ffffff;
+$box-shadow: 0 8px 22px rgba(0, 0, 0, 0.1);
+
+.footer-top {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: $dark;
+
+  a {
+    color: $white;
+  }
+}
+
+.footer-top a:hover {
+  color: $white;
+}
+
+.footer-bottom {
+  background-color: #242933;
+}

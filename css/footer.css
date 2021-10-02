@@ -1,15 +1,15 @@
 .footer-top {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-color: var(--dark);
+  background-color: #21252f;
 }
 
 .footer-top a {
-  color: var(--body);
+  color: #21252f;
 }
 
 .footer-top a:hover {
-  color: var(--white);
+  color: #ffffff;
 }
 
 .footer-bottom {
