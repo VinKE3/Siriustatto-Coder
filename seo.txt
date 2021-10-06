@@ -1,0 +1,1 @@
+Aplica como Keywods "Zona Norte - Tatuajes - Mejor precio - Beneficios", los utilice en los titulos, en cada titulo de las secciones agregue a que seccion hace referencia, como -Blog , - Nosotros, -Team, etc, con el fin de que el usuario pueda diferenciar en que seccion se encuentra. 
