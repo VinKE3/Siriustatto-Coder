@@ -126,3 +126,13 @@ form .form-control {
     width: 300px;
   }
 }
+
+.accordion-button:not(.collapsed) {
+  color: $primary;
+  background-color: $white;
+}
+
+.accordion-button:focus {
+  border-color: $primary;
+  box-shadow: 0 0 0 0.1rem $primary;
+}

@@ -300,10 +300,15 @@
 .navbar {
   -webkit-box-shadow: 0 8px 22px rgba(0, 0, 0, 0.1);
           box-shadow: 0 8px 22px rgba(0, 0, 0, 0.1);
+  padding: 0.5rem;
+}
+
+.navbar h3 {
+  margin: auto;
 }
 
 .navbar .nav-link {
-  font-size: 14px;
+  font-size: 19px;
   font-weight: 700;
 }
 
@@ -439,5 +444,16 @@ form .form-control {
   .container-btn {
     width: 300px;
   }
+}
+
+.accordion-button:not(.collapsed) {
+  color: #e56399ff;
+  background-color: #ffffff;
+}
+
+.accordion-button:focus {
+  border-color: #e56399ff;
+  -webkit-box-shadow: 0 0 0 0.1rem #e56399ff;
+          box-shadow: 0 0 0 0.1rem #e56399ff;
 }
 /*# sourceMappingURL=estilos.css.map */
