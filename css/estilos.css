@@ -273,6 +273,26 @@
   z-index: -1;
 }
 
+.herol {
+  background-image: url(../TATUAJES/Hero/3699-tatuajes.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  z-index: 2;
+}
+
+.herol::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(21, 20, 51, 0.8);
+  z-index: -1;
+}
+
 .contenido-blog {
   padding: 1rem;
 }
@@ -472,5 +492,9 @@ form .form-control {
   border-color: #e56399ff;
   -webkit-box-shadow: 0 0 0 0.1rem #e56399ff;
           box-shadow: 0 0 0 0.1rem #e56399ff;
+}
+
+.iframe {
+  width: 100%;
 }
 /*# sourceMappingURL=estilos.css.map */
